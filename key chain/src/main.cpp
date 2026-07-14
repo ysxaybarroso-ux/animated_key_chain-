@@ -151,11 +151,11 @@ if(mpu_ok && mpu.getEvent(&a,&g,&temp))
     mouvement *= 100;
 
 
-    //  éviter les tremblements
+    //  eviter les tremblements
     mouvement_filtre = mouvement_filtre * 0.85 + mouvement * 0.15;
 
 
-    // grosse secousse = réveil du renard
+    // secousse reveil du renard
     if(mouvement_filtre > SEUIL_RENARD && !modeRenard)
     {
       modeRenard = true;
@@ -188,7 +188,6 @@ else
   }
 
   if (modeRenard){
-    fox_reveille = false;
 
     ecran.clearDisplay();
 
