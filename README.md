@@ -10,7 +10,7 @@ here the file i put  are the animation translate into code(from pixel) i draw th
 you can use them free or remake these then there is the librairy i use for the composant and the diagram made thank to wokwi 
 the composant i buy to do this are my first "panne a fer chaud" ( english :soldering tip google trad help me :) ) and
 -esp32-s3-devkitc-1 XIAO from seed...( i forgot) for enough stokage
-- an accelerometer mpu6050 
+- an accelerometer mpu6050 unfortunatly a different from wokwi so i don't get how to make the wokwi one work's TT
 - some solder wire and stuff that goes with this
 - protection for cable
 - oled : ssd13016 128 by 64!
